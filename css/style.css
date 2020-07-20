@@ -7,6 +7,7 @@ ol,ul { list-style: none; }
 a { text-decoration:none; color:inherit;}
 img { border:0; vertical-align: middle;}/*빈틈없애기*/
 body, html {width: 100%; height:100%;position: fixed; background: greenyellow;}
+.blind {position: absolute; width: 0; height: 0; overflow: hidden; font-size: 0; line-height: 0; text-indent: -99999px;}
 
 .vid {width: 100%; height: 100%; position: fixed; top:0; left:0}
 .vid video {min-width: 100%; min-height: 100%; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%);}
@@ -42,12 +43,13 @@ h1 img {width: 280px;}
  
 
 
-
-
-
-
-
-
+.sns {position: fixed; top:60px; right: 50px; }
+.sns li  { display:inline-block; margin-left:20px} /*li 한줄정렬*/
+.sns li {font-size:25px ; color:#b9fb05 ;opacity: 0.5; transition: all 0.5s;}
+/* .sns li:hover {font-size:50px; opacity: 1;} */
+/*후버없는쪽에 트랜지션*/
+/* -->이렇게 하면 후버할때 전체가 흔들려  */
+.sns li:hover {transform: scale(1.4); opacity: 1;}
 
 
 
