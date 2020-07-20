@@ -75,7 +75,8 @@ h1 img {width: 280px;}
 .side .con p img:hover {opacity: 1;}
 .side:hover .con {left:50px}
 
-
+.side .btnContents {position:absolute; bottom: 0; left: 0; color:#b9fb05; font-size: 40px; transform: skew(40deg);}
+/*똑바로 세우기 transform skew*/
 
 
 
