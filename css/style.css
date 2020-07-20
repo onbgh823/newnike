@@ -45,7 +45,7 @@ h1 img {width: 280px;}
 
 .sns {position: fixed; top:60px; right: 50px; }
 .sns li  { display:inline-block; margin-left:20px} /*li 한줄정렬*/
-.sns li {font-size:25px ; color:#fff ;opacity: 0.5; transition: all 0.5s;}
+.sns li {font-size:25px ; color:#b9fb05  ;opacity: 0.5; transition: all 0.5s;}
 /* .sns li:hover {font-size:50px; opacity: 1;} */
 /*후버없는쪽에 트랜지션*/
 /* -->이렇게 하면 후버할때 전체가 흔들려  */
